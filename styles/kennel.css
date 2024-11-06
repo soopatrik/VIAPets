@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.custom-bg {
+  background-color: #e8dcc4;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.navbar-dark .navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.carousel-section {
+  background-color: #f8f9fa;
+}
+
+.carousel-inner {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.carousel-caption h5 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.carousel-indicators {
+  bottom: 20px;
+}
+
+.container-fluid {
+  background-color: #e8dcc4;
+  height: 100%;
+  padding: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+  color: #666;
+}
+
+.info-box {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border: 1px solid #e8dcc4;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+.info-box h3 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer h5 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+  color: #fff;
+}
+
+footer .text-md-end p {
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 50px;
+  }
+
+  .info-box {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 300px;
+  }
+}
